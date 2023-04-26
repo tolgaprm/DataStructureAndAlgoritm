@@ -28,4 +28,8 @@ class MyStack<T> {
     fun pop(): T {
         return elements.removeLast()
     }
+    
+    fun peek(): T {
+        return elements.last()
+    }
 }
